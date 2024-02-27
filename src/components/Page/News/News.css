@@ -1,0 +1,31 @@
+ .news-container {
+ 	display: flex;
+ 	flex-direction: column;
+ 	border: 1px solid black;
+ 	width: 40%;
+
+ 	margin-left: 200px;
+ 	color: black;
+ }
+
+ nav {
+ 	display: flex;
+ 	gap: 20px;
+ }
+
+ ul {
+ 	list-style-type: none;
+ 	display: flex;
+ 	flex-direction: row;
+ 	gap: 10px;
+ 	margin-top: 0px;
+ }
+
+ .news-list {
+ 	display: flex;
+ 	flex-direction: column;
+ }
+
+ li span {
+ 	margin-left: 10px;
+ }

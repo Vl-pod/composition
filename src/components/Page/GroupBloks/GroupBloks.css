@@ -1,0 +1,17 @@
+.group-container__grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 20px;
+	grid-row-gap: 10px;
+	margin-top: 40px;
+}
+
+.weather,
+.history-search,
+.map,
+.tv-list,
+.ether {
+	border: 1px solid black;
+	height: 100px;
+}
